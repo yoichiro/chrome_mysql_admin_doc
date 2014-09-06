@@ -15,6 +15,15 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=228677967188313&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <div class="container">
 
@@ -22,6 +31,10 @@
     <h1>Chrome MySQL Admin</h1>
     <p>This is a powerful Chrome app to manage your MySQL.</p>
     <p><a href="http://goo.gl/Fgn9cA" class="btn btn-primary btn-lg" role="button">Go to ChromeMyAdmin Store page</a></p>
+  </div>
+
+  <div style="text-align: center;">
+    <div class="fb-like" data-href="https://www.eisbahn.jp/chrome_mysql_admin/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
   </div>
 
   <div class="center-block" style="width: 80%;">
